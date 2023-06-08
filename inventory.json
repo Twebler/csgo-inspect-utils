@@ -1,0 +1,1160 @@
+{
+    "assets": [
+        {
+            "appid": 730,
+            "contextid": "2",
+            "assetid": "30708270298",
+            "classid": "4717330486",
+            "instanceid": "0",
+            "amount": "1"
+        },
+        {
+            "appid": 730,
+            "contextid": "2",
+            "assetid": "30704434294",
+            "classid": "5364978890",
+            "instanceid": "188530139",
+            "amount": "1"
+        },
+        {
+            "appid": 730,
+            "contextid": "2",
+            "assetid": "30704434290",
+            "classid": "5364978890",
+            "instanceid": "188530139",
+            "amount": "1"
+        },
+        {
+            "appid": 730,
+            "contextid": "2",
+            "assetid": "30704434279",
+            "classid": "5364978890",
+            "instanceid": "188530139",
+            "amount": "1"
+        },
+        {
+            "appid": 730,
+            "contextid": "2",
+            "assetid": "30704434276",
+            "classid": "5364978890",
+            "instanceid": "188530139",
+            "amount": "1"
+        },
+        {
+            "appid": 730,
+            "contextid": "2",
+            "assetid": "30655339493",
+            "classid": "5366946975",
+            "instanceid": "188530139",
+            "amount": "1"
+        },
+        {
+            "appid": 730,
+            "contextid": "2",
+            "assetid": "30654135650",
+            "classid": "5360369722",
+            "instanceid": "188530139",
+            "amount": "1"
+        },
+        {
+            "appid": 730,
+            "contextid": "2",
+            "assetid": "30653367322",
+            "classid": "5360248620",
+            "instanceid": "480085569",
+            "amount": "1"
+        },
+        {
+            "appid": 730,
+            "contextid": "2",
+            "assetid": "30652669466",
+            "classid": "5360231069",
+            "instanceid": "188530139",
+            "amount": "1"
+        },
+        {
+            "appid": 730,
+            "contextid": "2",
+            "assetid": "30631838373",
+            "classid": "1989286315",
+            "instanceid": "302028390",
+            "amount": "1"
+        },
+        {
+            "appid": 730,
+            "contextid": "2",
+            "assetid": "30606318043",
+            "classid": "3235808954",
+            "instanceid": "143865972",
+            "amount": "1"
+        },
+        {
+            "appid": 730,
+            "contextid": "2",
+            "assetid": "30511541041",
+            "classid": "4141780207",
+            "instanceid": "519977179",
+            "amount": "1"
+        },
+        {
+            "appid": 730,
+            "contextid": "2",
+            "assetid": "30442114345",
+            "classid": "310776840",
+            "instanceid": "302028390",
+            "amount": "1"
+        }
+    ],
+    "descriptions": [
+        {
+            "appid": 730,
+            "classid": "4717330486",
+            "instanceid": "0",
+            "currency": 0,
+            "background_color": "",
+            "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsUFJ5KBFZv668FFQwnfCcJmxDv9rhwIHZwqP3a-uGwz9Xv8F0j-qQrI3xiVLkrxVuZW-mJoWLMlhpWhFkc9M",
+            "descriptions": [
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "Container Series #339",
+                    "color": "99ccff"
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "Contains one of the following:"
+                },
+                {
+                    "type": "html",
+                    "value": "Five-SeveN | Scrawl",
+                    "color": "4b69ff"
+                },
+                {
+                    "type": "html",
+                    "value": "MAC-10 | Ensnared",
+                    "color": "4b69ff"
+                },
+                {
+                    "type": "html",
+                    "value": "MAG-7 | Foresight",
+                    "color": "4b69ff"
+                },
+                {
+                    "type": "html",
+                    "value": "MP5-SD | Necro Jr.",
+                    "color": "4b69ff"
+                },
+                {
+                    "type": "html",
+                    "value": "P2000 | Lifted Spirits",
+                    "color": "4b69ff"
+                },
+                {
+                    "type": "html",
+                    "value": "SCAR-20 | Poultrygeist",
+                    "color": "4b69ff"
+                },
+                {
+                    "type": "html",
+                    "value": "Sawed-Off | Spirit Board",
+                    "color": "4b69ff"
+                },
+                {
+                    "type": "html",
+                    "value": "PP-Bizon | Space Cat",
+                    "color": "8847ff"
+                },
+                {
+                    "type": "html",
+                    "value": "G3SG1 | Dream Glade",
+                    "color": "8847ff"
+                },
+                {
+                    "type": "html",
+                    "value": "M4A1-S | Night Terror",
+                    "color": "8847ff"
+                },
+                {
+                    "type": "html",
+                    "value": "XM1014 | Zombie Offensive",
+                    "color": "8847ff"
+                },
+                {
+                    "type": "html",
+                    "value": "USP-S | Ticket to Hell",
+                    "color": "8847ff"
+                },
+                {
+                    "type": "html",
+                    "value": "Dual Berettas | Melondrama",
+                    "color": "d32ce6"
+                },
+                {
+                    "type": "html",
+                    "value": "FAMAS | Rapid Eye Movement",
+                    "color": "d32ce6"
+                },
+                {
+                    "type": "html",
+                    "value": "MP7 | Abyssal Apparition",
+                    "color": "d32ce6"
+                },
+                {
+                    "type": "html",
+                    "value": "AK-47 | Nightwish",
+                    "color": "eb4b4b"
+                },
+                {
+                    "type": "html",
+                    "value": "MP9 | Starlight Protector",
+                    "color": "eb4b4b"
+                },
+                {
+                    "type": "html",
+                    "value": "or an Exceedingly Rare Special Item!",
+                    "color": "ffd700"
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "",
+                    "color": "00a000"
+                }
+            ],
+            "tradable": 1,
+            "name": "Dreams & Nightmares Case",
+            "name_color": "D2D2D2",
+            "type": "Base Grade Container",
+            "market_name": "Dreams & Nightmares Case",
+            "market_hash_name": "Dreams & Nightmares Case",
+            "commodity": 1,
+            "market_tradable_restriction": 7,
+            "marketable": 1,
+            "tags": [
+                {
+                    "category": "Type",
+                    "internal_name": "CSGO_Type_WeaponCase",
+                    "localized_category_name": "Type",
+                    "localized_tag_name": "Container"
+                },
+                {
+                    "category": "ItemSet",
+                    "internal_name": "set_community_30",
+                    "localized_category_name": "Collection",
+                    "localized_tag_name": "The Dreams & Nightmares Collection"
+                },
+                {
+                    "category": "Quality",
+                    "internal_name": "normal",
+                    "localized_category_name": "Category",
+                    "localized_tag_name": "Normal"
+                },
+                {
+                    "category": "Rarity",
+                    "internal_name": "Rarity_Common",
+                    "localized_category_name": "Quality",
+                    "localized_tag_name": "Base Grade",
+                    "color": "b0c3d9"
+                }
+            ],
+            "market_buy_country_restriction": "FR"
+        },
+        {
+            "appid": 730,
+            "classid": "5364978890",
+            "instanceid": "188530139",
+            "currency": 0,
+            "background_color": "",
+            "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulROWEPTTOz_h52CHE59IjtSur-mPxVv3frLTjVN4NP4ldDbx6GkZ7qElDlT7pEi0uzCodWk2ACy8kdla2GiJdeXcAE4Z1vQ8k_-n7lnQXJrZg",
+            "icon_url_large": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXQ9QVcJY8gulROWEPTTOz_h52CHE59IjtSur-mPxVv3frLTjVN4NOJmIGZkPK6Zr7Vx2oGupZwie-T99Sj2ALs-0NtZTigLYTBJAc-YFzR-FLtye-5hIj84sooyEfbSQ",
+            "descriptions": [
+                {
+                    "type": "html",
+                    "value": "This item commemorates the 2021 PGL Stockholm CS:GO Championship.",
+                    "color": "ffd700"
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "This sticker can be applied to any weapon you own and can be scraped to look more worn. You can scrape the same sticker multiple times, making it a bit more worn each time, until it is removed from the weapon."
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "This holographic sticker was autographed by professional player Denis Sharipov playing for Natus Vincere, Champion at the PGL Stockholm 2021 CS:GO Major Championship."
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "",
+                    "color": "00a000"
+                }
+            ],
+            "tradable": 0,
+            "actions": [
+                {
+                    "link": "steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20S%owner_steamid%A%assetid%D1074118597199491663",
+                    "name": "Inspect in Game..."
+                }
+            ],
+            "name": "Sticker | electroNic (Holo) | Stockholm 2021",
+            "name_color": "D2D2D2",
+            "type": "Remarkable Sticker",
+            "market_name": "Sticker | electroNic (Holo) | Stockholm 2021",
+            "market_hash_name": "Sticker | electroNic (Holo) | Stockholm 2021",
+            "market_actions": [
+                {
+                    "link": "steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20M%listingid%A%assetid%D1074118597199491663",
+                    "name": "Inspect in Game..."
+                }
+            ],
+            "commodity": 1,
+            "market_tradable_restriction": 7,
+            "marketable": 1,
+            "tags": [
+                {
+                    "category": "Type",
+                    "internal_name": "CSGO_Tool_Sticker",
+                    "localized_category_name": "Type",
+                    "localized_tag_name": "Sticker"
+                },
+                {
+                    "category": "Quality",
+                    "internal_name": "normal",
+                    "localized_category_name": "Category",
+                    "localized_tag_name": "Normal"
+                },
+                {
+                    "category": "Rarity",
+                    "internal_name": "Rarity_Mythical",
+                    "localized_category_name": "Quality",
+                    "localized_tag_name": "Remarkable",
+                    "color": "8847ff"
+                },
+                {
+                    "category": "StickerCategory",
+                    "internal_name": "PlayerSignature",
+                    "localized_category_name": "Sticker Type",
+                    "localized_tag_name": "Player Autograph"
+                },
+                {
+                    "category": "Tournament",
+                    "internal_name": "Tournament18",
+                    "localized_category_name": "Tournament",
+                    "localized_tag_name": "2021 PGL Stockholm"
+                },
+                {
+                    "category": "TournamentTeam",
+                    "internal_name": "Team12",
+                    "localized_category_name": "Team",
+                    "localized_tag_name": "Natus Vincere"
+                },
+                {
+                    "category": "ProPlayer",
+                    "internal_name": "electronic",
+                    "localized_category_name": "Professional Player",
+                    "localized_tag_name": "electronic (Denis Sharipov)"
+                },
+                {
+                    "category": "StickerCapsule",
+                    "internal_name": "crate_signature_pack_stockh2021_group_players_collection",
+                    "localized_category_name": "Sticker Collection",
+                    "localized_tag_name": "Stockholm 2021 Player Autographs"
+                }
+            ]
+        },
+        {
+            "appid": 730,
+            "classid": "5366946975",
+            "instanceid": "188530139",
+            "currency": 0,
+            "background_color": "",
+            "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhnwMzFcDoV09u5m4yPqPrxN7LEmyVTupQp2brH9tSkjQOxr0NrYzj0JYDHegc-ZluB_wLvkO3tg5e5u8yb1zI97TTIZEER",
+            "icon_url_large": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou7uifDhnwMzFcDoV09u5m4yPqPrxN7LEm1Rd6dd2j6fDp92t2weyqEttNm6mcIaSclc5YF6C8lC-xu2-gMXt7Z7Lz3NmvXFw-z-DyLsDCkHz",
+            "descriptions": [
+                {
+                    "type": "html",
+                    "value": "Exterior: Field-Tested"
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "The CT-exclusive Mag-7 delivers a devastating amount of damage at close range. Its rapid magazine-style reloads make it a great tactical choice. It has been custom painted to look like it was held under a stream of liquid copper.\n\n<i>This was an accident, not a mistake...</i>"
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "The Anubis Collection",
+                    "color": "9da1a9"
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "<br><div id=\"sticker_info\" name=\"sticker_info\" title=\"Sticker\" style=\"border: 2px solid rgb(102, 102, 102); border-radius: 6px; width=100; margin:4px; padding:8px;\"><center><img width=64 height=48 src=\"https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/csgo10/go_paper.16fb756929b719584b69028aef77c1bdb145fd59.png\"><img width=64 height=48 src=\"https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/csgo10/go_paper.16fb756929b719584b69028aef77c1bdb145fd59.png\"><img width=64 height=48 src=\"https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/csgo10/go_paper.16fb756929b719584b69028aef77c1bdb145fd59.png\"><img width=64 height=48 src=\"https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/csgo10/go_paper.16fb756929b719584b69028aef77c1bdb145fd59.png\"><br>Sticker: GO, GO, GO, GO</center></div>"
+                }
+            ],
+            "tradable": 1,
+            "actions": [
+                {
+                    "link": "steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20S%owner_steamid%A%assetid%D2496331251447853727",
+                    "name": "Inspect in Game..."
+                }
+            ],
+            "fraudwarnings": [
+                "Name Tag: ''CUM''"
+            ],
+            "name": "MAG-7 | Copper Coated",
+            "name_color": "D2D2D2",
+            "type": "Mil-Spec Grade Shotgun",
+            "market_name": "MAG-7 | Copper Coated (Field-Tested)",
+            "market_hash_name": "MAG-7 | Copper Coated (Field-Tested)",
+            "market_actions": [
+                {
+                    "link": "steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20M%listingid%A%assetid%D2496331251447853727",
+                    "name": "Inspect in Game..."
+                }
+            ],
+            "commodity": 0,
+            "market_tradable_restriction": 7,
+            "marketable": 1,
+            "tags": [
+                {
+                    "category": "Type",
+                    "internal_name": "CSGO_Type_Shotgun",
+                    "localized_category_name": "Type",
+                    "localized_tag_name": "Shotgun"
+                },
+                {
+                    "category": "Weapon",
+                    "internal_name": "weapon_mag7",
+                    "localized_category_name": "Weapon",
+                    "localized_tag_name": "MAG-7"
+                },
+                {
+                    "category": "ItemSet",
+                    "internal_name": "set_anubis",
+                    "localized_category_name": "Collection",
+                    "localized_tag_name": "The Anubis Collection"
+                },
+                {
+                    "category": "Quality",
+                    "internal_name": "normal",
+                    "localized_category_name": "Category",
+                    "localized_tag_name": "Normal"
+                },
+                {
+                    "category": "Rarity",
+                    "internal_name": "Rarity_Rare_Weapon",
+                    "localized_category_name": "Quality",
+                    "localized_tag_name": "Mil-Spec Grade",
+                    "color": "4b69ff"
+                },
+                {
+                    "category": "Exterior",
+                    "internal_name": "WearCategory2",
+                    "localized_category_name": "Exterior",
+                    "localized_tag_name": "Field-Tested"
+                }
+            ]
+        },
+        {
+            "appid": 730,
+            "classid": "5360369722",
+            "instanceid": "188530139",
+            "currency": 0,
+            "background_color": "",
+            "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot621FAR17PLfYQJU5cyzhr-GkvP9Jrafw2lU6ccp0rqX8d2nigTm_hdoNWmiIYHBdAVsaAzR-QO-xLq6g5G5uIOJlyWELqSUrQ",
+            "icon_url_large": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot621FAR17PLfYQJU5cyzhr-GkvP9JrbummpD78A_3-vE9I6t0Afir0JuMWnxIdKRJAZvZF-E_FLsyLruhsS8ucmcz3Vmvj5iuygKH_-NNA",
+            "descriptions": [
+                {
+                    "type": "html",
+                    "value": "Exterior: Well-Worn"
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "High risk and high reward, the infamous AWP is recognizable by its signature report and one-shot, one-kill policy. A striking green and blue bush viper has been hand painted over a black base.\n\n<i>As deadly as it is beautiful</i>"
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "The Prisma Collection",
+                    "color": "9da1a9"
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "<br><div id=\"sticker_info\" name=\"sticker_info\" title=\"Sticker\" style=\"border: 2px solid rgb(102, 102, 102); border-radius: 6px; width=100; margin:4px; padding:8px;\"><center><img width=64 height=48 src=\"https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_sdy.e87f4b6a5f19e7738c4403725f6723ca4414e1b8.png\"><img width=64 height=48 src=\"https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_sdy.e87f4b6a5f19e7738c4403725f6723ca4414e1b8.png\"><img width=64 height=48 src=\"https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_sdy.e87f4b6a5f19e7738c4403725f6723ca4414e1b8.png\"><img width=64 height=48 src=\"https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_sdy.e87f4b6a5f19e7738c4403725f6723ca4414e1b8.png\"><br>Sticker: sdy | Paris 2023, sdy | Paris 2023, sdy | Paris 2023, sdy | Paris 2023</center></div>"
+                }
+            ],
+            "tradable": 0,
+            "actions": [
+                {
+                    "link": "steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20S%owner_steamid%A%assetid%D9415595817228188845",
+                    "name": "Inspect in Game..."
+                }
+            ],
+            "name": "AWP | Atheris",
+            "name_color": "D2D2D2",
+            "type": "Restricted Sniper Rifle",
+            "market_name": "AWP | Atheris (Well-Worn)",
+            "market_hash_name": "AWP | Atheris (Well-Worn)",
+            "market_actions": [
+                {
+                    "link": "steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20M%listingid%A%assetid%D9415595817228188845",
+                    "name": "Inspect in Game..."
+                }
+            ],
+            "commodity": 0,
+            "market_tradable_restriction": 7,
+            "marketable": 1,
+            "tags": [
+                {
+                    "category": "Type",
+                    "internal_name": "CSGO_Type_SniperRifle",
+                    "localized_category_name": "Type",
+                    "localized_tag_name": "Sniper Rifle"
+                },
+                {
+                    "category": "Weapon",
+                    "internal_name": "weapon_awp",
+                    "localized_category_name": "Weapon",
+                    "localized_tag_name": "AWP"
+                },
+                {
+                    "category": "ItemSet",
+                    "internal_name": "set_community_22",
+                    "localized_category_name": "Collection",
+                    "localized_tag_name": "The Prisma Collection"
+                },
+                {
+                    "category": "Quality",
+                    "internal_name": "normal",
+                    "localized_category_name": "Category",
+                    "localized_tag_name": "Normal"
+                },
+                {
+                    "category": "Rarity",
+                    "internal_name": "Rarity_Mythical_Weapon",
+                    "localized_category_name": "Quality",
+                    "localized_tag_name": "Restricted",
+                    "color": "8847ff"
+                },
+                {
+                    "category": "Exterior",
+                    "internal_name": "WearCategory3",
+                    "localized_category_name": "Exterior",
+                    "localized_tag_name": "Well-Worn"
+                },
+                {
+                    "category": "Tournament",
+                    "internal_name": "Tournament21",
+                    "localized_category_name": "Tournament",
+                    "localized_tag_name": "BLAST.tv Paris 2023"
+                },
+                {
+                    "category": "TournamentTeam",
+                    "internal_name": "Team119",
+                    "localized_category_name": "Team",
+                    "localized_tag_name": "Monte"
+                },
+                {
+                    "category": "ProPlayer",
+                    "internal_name": "sdy",
+                    "localized_category_name": "Professional Player",
+                    "localized_tag_name": "sdy (Viktor Orudzhev)"
+                }
+            ]
+        },
+        {
+            "appid": 730,
+            "classid": "5360248620",
+            "instanceid": "480085569",
+            "currency": 0,
+            "background_color": "",
+            "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbaqKAxf0vL3ZzhQ-NWxm7-Jm-LxDLfYkWNFppV33uiS8I-t31K1rUJrMTv7IYOSI1c9M13Xq1i3x-7p1MW-uM7NzSd9-n51CmsDOd4",
+            "icon_url_large": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbaqKAxf0vL3ZzhQ-NWxm7-Jm-LxDLfYkWNF18lwmO7Eu9zz3FXnrhBkZD-icoeSIFQ2ZF3XqwC9k-vo1J-1up3PmCFhvnMm4SrD30vggYIkvEM",
+            "descriptions": [
+                {
+                    "type": "html",
+                    "value": "Exterior: Factory New"
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "The Glock 18 is a serviceable first-round pistol that works best against unarmored opponents and is capable of firing three-round bursts. A blue spiral pattern has been applied to the slide.\n\n<i>Hard to miss</i>"
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "The 2018 Inferno Collection",
+                    "color": "9da1a9"
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "<br><div id=\"sticker_info\" name=\"sticker_info\" title=\"Sticker\" style=\"border: 2px solid rgb(102, 102, 102); border-radius: 6px; width=100; margin:4px; padding:8px;\"><center><img width=64 height=48 src=\"https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_jt.6be8707a7757931bb48dc223aafd3e7177427804.png\"><img width=64 height=48 src=\"https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_jt.6be8707a7757931bb48dc223aafd3e7177427804.png\"><img width=64 height=48 src=\"https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_jt.6be8707a7757931bb48dc223aafd3e7177427804.png\"><br>Sticker: JT | Paris 2023, JT | Paris 2023, JT | Paris 2023</center></div>"
+                }
+            ],
+            "tradable": 0,
+            "actions": [
+                {
+                    "link": "steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20S%owner_steamid%A%assetid%D16889851714948743458",
+                    "name": "Inspect in Game..."
+                }
+            ],
+            "name": "Glock-18 | High Beam",
+            "name_color": "D2D2D2",
+            "type": "Industrial Grade Pistol",
+            "market_name": "Glock-18 | High Beam (Factory New)",
+            "market_hash_name": "Glock-18 | High Beam (Factory New)",
+            "market_actions": [
+                {
+                    "link": "steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20M%listingid%A%assetid%D16889851714948743458",
+                    "name": "Inspect in Game..."
+                }
+            ],
+            "commodity": 0,
+            "market_tradable_restriction": 7,
+            "marketable": 1,
+            "tags": [
+                {
+                    "category": "Type",
+                    "internal_name": "CSGO_Type_Pistol",
+                    "localized_category_name": "Type",
+                    "localized_tag_name": "Pistol"
+                },
+                {
+                    "category": "Weapon",
+                    "internal_name": "weapon_glock",
+                    "localized_category_name": "Weapon",
+                    "localized_tag_name": "Glock-18"
+                },
+                {
+                    "category": "ItemSet",
+                    "internal_name": "set_inferno_2",
+                    "localized_category_name": "Collection",
+                    "localized_tag_name": "The 2018 Inferno Collection"
+                },
+                {
+                    "category": "Quality",
+                    "internal_name": "normal",
+                    "localized_category_name": "Category",
+                    "localized_tag_name": "Normal"
+                },
+                {
+                    "category": "Rarity",
+                    "internal_name": "Rarity_Uncommon_Weapon",
+                    "localized_category_name": "Quality",
+                    "localized_tag_name": "Industrial Grade",
+                    "color": "5e98d9"
+                },
+                {
+                    "category": "Exterior",
+                    "internal_name": "WearCategory0",
+                    "localized_category_name": "Exterior",
+                    "localized_tag_name": "Factory New"
+                },
+                {
+                    "category": "Tournament",
+                    "internal_name": "Tournament21",
+                    "localized_category_name": "Tournament",
+                    "localized_tag_name": "BLAST.tv Paris 2023"
+                },
+                {
+                    "category": "TournamentTeam",
+                    "internal_name": "Team111",
+                    "localized_category_name": "Team",
+                    "localized_tag_name": "Complexity Gaming"
+                },
+                {
+                    "category": "ProPlayer",
+                    "internal_name": "jt",
+                    "localized_category_name": "Professional Player",
+                    "localized_tag_name": "JT (Ioannis Theodosiou)"
+                }
+            ]
+        },
+        {
+            "appid": 730,
+            "classid": "5360231069",
+            "instanceid": "188530139",
+            "currency": 0,
+            "background_color": "",
+            "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FABz7OORIQJE-dC6q5SDhfjgJ7fUqWdY781lxL6R8Iqj0FDj-0VtZDyhJ4edJwRqN1jVr1G3l-nnhZK4tMzImyM1unQ8pSGK75hLHr0",
+            "icon_url_large": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopuP1FABz7OORIQJE-dC6q5SDhfjgJ7fUqWdY781lteXA54vwxgPkrhVqaz30JICUdVNsYlnYr1Pql-7q0Ja16prByXZnsnEjty6Ln0GpwUYb2X3XyHA",
+            "descriptions": [
+                {
+                    "type": "html",
+                    "value": "Exterior: Minimal Wear"
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "Easily recognizable for its unique bullpup design, the P90 is a great weapon to shoot on the move due to its high-capacity magazine and low recoil. It has been painted with a flame motif in orange and blue metallic paints.\n\n<i>Clutch not included</i>"
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "The Gamma Collection",
+                    "color": "9da1a9"
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "<br><div id=\"sticker_info\" name=\"sticker_info\" title=\"Sticker\" style=\"border: 2px solid rgb(102, 102, 102); border-radius: 6px; width=100; margin:4px; padding:8px;\"><center><img width=64 height=48 src=\"https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/community02/handmadeflash.a1905a0cc1bc196c55efc2278420c71f01a01b13.png\"><img width=64 height=48 src=\"https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/paris2023/sig_jt.6be8707a7757931bb48dc223aafd3e7177427804.png\"><img width=64 height=48 src=\"https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/stockh2021/evl.733cae020c50ab6cdbe43190ddf4cc1640a68ccd.png\"><br>Sticker: Flashbang, JT | Paris 2023, Evil Geniuses | Stockholm 2021</center></div>"
+                }
+            ],
+            "tradable": 0,
+            "actions": [
+                {
+                    "link": "steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20S%owner_steamid%A%assetid%D16900543212568003837",
+                    "name": "Inspect in Game..."
+                }
+            ],
+            "fraudwarnings": [
+                "Name Tag: ''-1''"
+            ],
+            "name": "P90 | Chopper",
+            "name_color": "D2D2D2",
+            "type": "Restricted SMG",
+            "market_name": "P90 | Chopper (Minimal Wear)",
+            "market_hash_name": "P90 | Chopper (Minimal Wear)",
+            "market_actions": [
+                {
+                    "link": "steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20M%listingid%A%assetid%D16900543212568003837",
+                    "name": "Inspect in Game..."
+                }
+            ],
+            "commodity": 0,
+            "market_tradable_restriction": 7,
+            "marketable": 1,
+            "tags": [
+                {
+                    "category": "Type",
+                    "internal_name": "CSGO_Type_SMG",
+                    "localized_category_name": "Type",
+                    "localized_tag_name": "SMG"
+                },
+                {
+                    "category": "Weapon",
+                    "internal_name": "weapon_p90",
+                    "localized_category_name": "Weapon",
+                    "localized_tag_name": "P90"
+                },
+                {
+                    "category": "ItemSet",
+                    "internal_name": "set_community_13",
+                    "localized_category_name": "Collection",
+                    "localized_tag_name": "The Gamma Collection"
+                },
+                {
+                    "category": "Quality",
+                    "internal_name": "normal",
+                    "localized_category_name": "Category",
+                    "localized_tag_name": "Normal"
+                },
+                {
+                    "category": "Rarity",
+                    "internal_name": "Rarity_Mythical_Weapon",
+                    "localized_category_name": "Quality",
+                    "localized_tag_name": "Restricted",
+                    "color": "8847ff"
+                },
+                {
+                    "category": "Exterior",
+                    "internal_name": "WearCategory1",
+                    "localized_category_name": "Exterior",
+                    "localized_tag_name": "Minimal Wear"
+                },
+                {
+                    "category": "Tournament",
+                    "internal_name": "Tournament21",
+                    "localized_category_name": "Tournament",
+                    "localized_tag_name": "BLAST.tv Paris 2023"
+                },
+                {
+                    "category": "Tournament",
+                    "internal_name": "Tournament18",
+                    "localized_category_name": "Tournament",
+                    "localized_tag_name": "2021 PGL Stockholm"
+                },
+                {
+                    "category": "TournamentTeam",
+                    "internal_name": "Team111",
+                    "localized_category_name": "Team",
+                    "localized_tag_name": "Complexity Gaming"
+                },
+                {
+                    "category": "TournamentTeam",
+                    "internal_name": "Team98",
+                    "localized_category_name": "Team",
+                    "localized_tag_name": "Evil Geniuses"
+                },
+                {
+                    "category": "ProPlayer",
+                    "internal_name": "jt",
+                    "localized_category_name": "Professional Player",
+                    "localized_tag_name": "JT (Ioannis Theodosiou)"
+                }
+            ]
+        },
+        {
+            "appid": 730,
+            "classid": "1989286315",
+            "instanceid": "302028390",
+            "currency": 0,
+            "background_color": "",
+            "icon_url": "IzMF03bi9WpSBq-S-ekoE33L-iLqGFHVaU25ZzQNQcXdB2ozio1RrlIWFK3UfvMYB8UsvjiMXojflsZalyxSh31CIyHz2GZ-KuFpPsrTzBG0pPSEEEvycTKKfXSJTA88RLBYZm_d-Df2s7udQ2ydQLl5S18FL_BSp2wca8vca0E5hZlLpWL-lEtxEQQlZ8lSeR-30ykRMOt9ynPf6m5O3w",
+            "icon_url_large": "IzMF03bi9WpSBq-S-ekoE33L-iLqGFHVaU25ZzQNQcXdB2ozio1RrlIWFK3UfvMYB8UsvjiMXojflsZalyxSh31CIyHz2GZ-KuFpPsrTzBG0pPSEEEvycTL7IyDLG1smRLBfZDvRr2ejs7iWRTDJF-h4FQpQKKsC8GZLaZ-IbBA-hYUJrjbvxAptEBFuccpKfx2233gHOK0p0XwQJJ1ayybIdwjwZg",
+            "descriptions": [
+                {
+                    "type": "html",
+                    "value": "This is a sealed container of a graffiti pattern. Once this graffiti pattern is unsealed, it will provide you with enough charges to apply the graffiti pattern <b>50</b> times to the in-game world."
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "",
+                    "color": "00a000"
+                }
+            ],
+            "tradable": 1,
+            "actions": [
+                {
+                    "link": "steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20S%owner_steamid%A%assetid%D4813942736084315112",
+                    "name": "Inspect in Game..."
+                }
+            ],
+            "name": "Sealed Graffiti | Rage Mode (Bazooka Pink)",
+            "name_color": "D2D2D2",
+            "type": "Base Grade Graffiti",
+            "market_name": "Sealed Graffiti | Rage Mode (Bazooka Pink)",
+            "market_hash_name": "Sealed Graffiti | Rage Mode (Bazooka Pink)",
+            "market_actions": [
+                {
+                    "link": "steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20M%listingid%A%assetid%D4813942736084315112",
+                    "name": "Inspect in Game..."
+                }
+            ],
+            "commodity": 1,
+            "market_tradable_restriction": 7,
+            "marketable": 1,
+            "tags": [
+                {
+                    "category": "Type",
+                    "internal_name": "CSGO_Type_Spray",
+                    "localized_category_name": "Type",
+                    "localized_tag_name": "Graffiti"
+                },
+                {
+                    "category": "Quality",
+                    "internal_name": "normal",
+                    "localized_category_name": "Category",
+                    "localized_tag_name": "Normal"
+                },
+                {
+                    "category": "Rarity",
+                    "internal_name": "Rarity_Common",
+                    "localized_category_name": "Quality",
+                    "localized_tag_name": "Base Grade",
+                    "color": "b0c3d9"
+                },
+                {
+                    "category": "SprayColorCategory",
+                    "internal_name": "Tint16",
+                    "localized_category_name": "Graffiti Color",
+                    "localized_tag_name": "Bazooka Pink"
+                }
+            ]
+        },
+        {
+            "appid": 730,
+            "classid": "3235808954",
+            "instanceid": "143865972",
+            "currency": 0,
+            "background_color": "",
+            "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXO9B9WLbU5oA9OA1jYQvKoxcTYUk9nGlQG-LnyfV42iveQcmwW7YW3w9SIwKbyY7-Ek21S7ZMl37rHoo6i2Fay_0ByIzekS-mLnh0",
+            "descriptions": [
+                {
+                    "type": "html",
+                    "value": "This Music Kit will replace all of the music in the game and is shareable with anyone you are playing with. It also includes an MVP Anthem that plays for everyone in the match when you are MVP.\n\nThe Music Kit replaces the following music:\n- Main Menu\n- Round Start and End\n- Map Objective\n- Ten Second Warning\n- Death Camera"
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "The Verkkars rise through the Finnish charts with a heart-pounding tribute to ENCE. Can it really be so EZ?"
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                }
+            ],
+            "tradable": 1,
+            "name": "Music Kit | The Verkkars, EZ4ENCE",
+            "name_color": "D2D2D2",
+            "type": "High Grade Music Kit",
+            "market_name": "Music Kit | The Verkkars, EZ4ENCE",
+            "market_hash_name": "Music Kit | The Verkkars, EZ4ENCE",
+            "commodity": 1,
+            "market_tradable_restriction": 7,
+            "marketable": 1,
+            "tags": [
+                {
+                    "category": "Type",
+                    "internal_name": "CSGO_Type_MusicKit",
+                    "localized_category_name": "Type",
+                    "localized_tag_name": "Music Kit"
+                },
+                {
+                    "category": "Quality",
+                    "internal_name": "normal",
+                    "localized_category_name": "Category",
+                    "localized_tag_name": "Normal"
+                },
+                {
+                    "category": "Rarity",
+                    "internal_name": "Rarity_Rare",
+                    "localized_category_name": "Quality",
+                    "localized_tag_name": "High Grade",
+                    "color": "4b69ff"
+                }
+            ]
+        },
+        {
+            "appid": 730,
+            "classid": "4141780207",
+            "instanceid": "519977179",
+            "currency": 0,
+            "background_color": "",
+            "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXA6Q1NL4kmrAlOA0_FVPCi2t_fUkRxNztUoreaOBM27OXJYzRD4si82tOIxq_3N-yDl2hXuZQhibuUpN2jjQPtqRc5Z2zxd9DDclRqaArW_wWggbC4Uzmy7rk",
+            "descriptions": [
+                {
+                    "type": "html",
+                    "value": "Known as SEAL Team's \"Weapons Sommelier\" Buckshot has thoroughly field-tested and reviewed almost every available military weapon in staggering depth. ST6 relies on Buckshot's knowledge of lesser-known guns for edge case advantages in ground based operations.\n\nSeen here sporting the classic NUE Type 1 uniform otherwise known as 'blueberries'. \n\n<i>They talk to me. The guns. They have feelings.</i>"
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "Broken Fang Agents",
+                    "color": "9da1a9"
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                }
+            ],
+            "tradable": 1,
+            "actions": [
+                {
+                    "link": "steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20S%owner_steamid%A%assetid%D920217371024175225",
+                    "name": "Inspect in Game..."
+                }
+            ],
+            "name": "'Blueberries' Buckshot | NSWC SEAL",
+            "name_color": "D2D2D2",
+            "type": "Exceptional Agent",
+            "market_name": "'Blueberries' Buckshot | NSWC SEAL",
+            "market_hash_name": "'Blueberries' Buckshot | NSWC SEAL",
+            "market_actions": [
+                {
+                    "link": "steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20M%listingid%A%assetid%D920217371024175225",
+                    "name": "Inspect in Game..."
+                }
+            ],
+            "commodity": 0,
+            "market_tradable_restriction": 7,
+            "marketable": 1,
+            "tags": [
+                {
+                    "category": "Type",
+                    "internal_name": "Type_CustomPlayer",
+                    "localized_category_name": "Type",
+                    "localized_tag_name": "Agent"
+                },
+                {
+                    "category": "ItemSet",
+                    "internal_name": "set_op10_characters",
+                    "localized_category_name": "Collection",
+                    "localized_tag_name": "Broken Fang Agents"
+                },
+                {
+                    "category": "Quality",
+                    "internal_name": "normal",
+                    "localized_category_name": "Category",
+                    "localized_tag_name": "Normal"
+                },
+                {
+                    "category": "Rarity",
+                    "internal_name": "Rarity_Mythical_Character",
+                    "localized_category_name": "Quality",
+                    "localized_tag_name": "Exceptional",
+                    "color": "8847ff"
+                }
+            ]
+        },
+        {
+            "appid": 730,
+            "classid": "310776840",
+            "instanceid": "302028390",
+            "currency": 0,
+            "background_color": "",
+            "icon_url": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7ODHTi1P7-O7kYSCgvq6ZO2EwmlU6ZEji-qRoo6tigzk_xZpY2mmcI6RdVBrMFnV_FLslOy804j84so1c9KYww",
+            "icon_url_large": "-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopbmkOVUw7ODHTi1P7-O7kYSCgvrLP7rDkW4fv5Mk3uvE9NiniVfk_BFkMWHzINOQcgZrNVDU_QfrkO_qg5Xu6Z-an2wj5HfSinewXQ",
+            "descriptions": [
+                {
+                    "type": "html",
+                    "value": "Exterior: Field-Tested"
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "The SCAR-20 is a semi-automatic sniper rifle that trades a high rate of fire and powerful long-distance damage for sluggish movement speed and big price tag. It has individual parts spray-painted tan, navy and dark green.\n\n<i>Rona Sabri still hasn't forgiven Sebastien for not selecting her to go after Turner</i>"
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                },
+                {
+                    "type": "html",
+                    "value": "The Safehouse Collection",
+                    "color": "9da1a9"
+                },
+                {
+                    "type": "html",
+                    "value": " "
+                }
+            ],
+            "tradable": 1,
+            "actions": [
+                {
+                    "link": "steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20S%owner_steamid%A%assetid%D12297088180031719184",
+                    "name": "Inspect in Game..."
+                }
+            ],
+            "name": "SCAR-20 | Contractor",
+            "name_color": "D2D2D2",
+            "type": "Consumer Grade Sniper Rifle",
+            "market_name": "SCAR-20 | Contractor (Field-Tested)",
+            "market_hash_name": "SCAR-20 | Contractor (Field-Tested)",
+            "market_actions": [
+                {
+                    "link": "steam://rungame/730/76561202255233023/+csgo_econ_action_preview%20M%listingid%A%assetid%D12297088180031719184",
+                    "name": "Inspect in Game..."
+                }
+            ],
+            "commodity": 0,
+            "market_tradable_restriction": 7,
+            "marketable": 1,
+            "tags": [
+                {
+                    "category": "Type",
+                    "internal_name": "CSGO_Type_SniperRifle",
+                    "localized_category_name": "Type",
+                    "localized_tag_name": "Sniper Rifle"
+                },
+                {
+                    "category": "Weapon",
+                    "internal_name": "weapon_scar20",
+                    "localized_category_name": "Weapon",
+                    "localized_tag_name": "SCAR-20"
+                },
+                {
+                    "category": "ItemSet",
+                    "internal_name": "set_safehouse",
+                    "localized_category_name": "Collection",
+                    "localized_tag_name": "The Safehouse Collection"
+                },
+                {
+                    "category": "Quality",
+                    "internal_name": "normal",
+                    "localized_category_name": "Category",
+                    "localized_tag_name": "Normal"
+                },
+                {
+                    "category": "Rarity",
+                    "internal_name": "Rarity_Common_Weapon",
+                    "localized_category_name": "Quality",
+                    "localized_tag_name": "Consumer Grade",
+                    "color": "b0c3d9"
+                },
+                {
+                    "category": "Exterior",
+                    "internal_name": "WearCategory2",
+                    "localized_category_name": "Exterior",
+                    "localized_tag_name": "Field-Tested"
+                }
+            ]
+        }
+    ],
+    "total_inventory_count": 13,
+    "success": 1,
+    "rwgrsn": -2
+}
