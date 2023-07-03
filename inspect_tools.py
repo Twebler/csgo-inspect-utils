@@ -121,8 +121,11 @@ class get_information:
                     counter+=1
 
             stickers = " ".join([sticker_lst[0][0], sticker_lst[0][1], sticker_lst[1][0], sticker_lst[1][1], sticker_lst[2][0], sticker_lst[2][1], sticker_lst[3][0], sticker_lst[3][1], sticker_lst[4][0], sticker_lst[4][1]])
-            stickers = stickers.rstrip("0 ")
-            gencode = " ".join(["!gen", all_weaponids[weapon], all_skinids[skin], str(invhelper_response["iteminfo"]["paintseed"]), str(invhelper_response["iteminfo"]["floatvalue"]), stickers])
+            stickers_lst = stickers.split(" ")
+            for i in range(len(stickers_lst)):
+                if stickers_lst[-1] == "0":
+                    del stickers_lst[-1]
+            gencode = " ".join(["!gen", all_weaponids[weapon], all_skinids[skin], str(invhelper_response["iteminfo"]["paintseed"]), str(invhelper_response["iteminfo"]["floatvalue"]), " ".join(stickers_lst)])
             gencodes.append(gencode)
         return gencodes
     
@@ -152,7 +155,9 @@ class generate:
         all_stickers = sorted([sticker_lst1, sticker_lst2, sticker_lst3, sticker_lst4, sticker_lst5], key=operator.itemgetter(1))
         for i in range(len(all_stickers)):
             del all_stickers[i][1]
-            all_stickers[i] = " ".join(all_stickers[i])
+        all_stickers = [item for sublist in all_stickers for item in sublist]
+        for i in range(len(all_stickers)):
+            if all_stickers[-1] == "0":
+                del all_stickers[-1]
         final_stickers = " ".join(all_stickers)
-        
         return " ".join(["!gen", weaponid, skinid, pattern, floatvalue, final_stickers])
