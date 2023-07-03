@@ -15,11 +15,11 @@ class get_information:
 
     #takes a steamid and returns all the information about the weaponskins in the given inventory that i think is relevant
     def information(self, steam_id: str, output_file=True, output_file_indent=3):
-        raw_inv_response = requests.get(f"https://steamcommunity.com/inventory/{steam_id}/730/2")
-        inv_response = raw_inv_response.json()
+        #raw_inv_response = requests.get(f"https://steamcommunity.com/inventory/{steam_id}/730/2")
+        #inv_response = raw_inv_response.json()
 
         #this line is used for prototyping so i dont have to request the api everytime i do a test
-            #inv_response = json.load(open("inventory.json", encoding="utf-8"))
+        inv_response = json.load(open("T:\\Development\\Python\\float_avg\\inventory.json", encoding="utf-8"))
 
         if inv_response == None:
             exit("Steam API didnt respond try again later")
@@ -83,12 +83,12 @@ class get_information:
         for n in range(len(inspect_links)):
             steamid = inspect_links[n].split("S")[1].split("A")[0]
             assetid = inspect_links[n].split("S")[1].split("A")[1].split("D")[0]
-            raw_inv_response = requests.get(f"https://steamcommunity.com/inventory/{steamid}/730/2")
-            inv_response = raw_inv_response.json()
+            #raw_inv_response = requests.get(f"https://steamcommunity.com/inventory/{steamid}/730/2")
+            #inv_response = raw_inv_response.json()
 
             #this line is used for prototyping so i dont have to request the api everytime i do a test
-            #inv_response = json.load(open("inventory.json", encoding="utf-8"))
-            
+            inv_response = json.load(open("T:\\Development\\Python\\float_avg\\inventory.json", encoding="utf-8"))
+
             if inv_response == None:
                 exit("Steam API didnt respond try again later")
             for asset in range(len(inv_response["assets"])):
@@ -106,8 +106,8 @@ class get_information:
                         if inv_response["descriptions"][description]["tags"][i]["category"] == "Exterior":
                             exterior_index = i
                     skin = " ".join(raw_skin).replace("StatTrak™ ", "").replace(inv_response["descriptions"][description]["tags"][exterior_index]["localized_tag_name"], "")
-            all_weaponids = json.load(open("resources/weaponids.json"))
-            all_skinids = json.load(open("resources/skinids.json", encoding="utf-8"))
+            all_weaponids = json.load(open("T:\\Development\\Python\\float_avg\\resources\\weaponids.json"))
+            all_skinids = json.load(open("T:\\Development\\Python\\float_avg\\resources\\skinids.json", encoding="utf-8"))
             raw_invhelper_response = requests.get(f"https://floats.steaminventoryhelper.com/?url={inspect_links[n]}")
             invhelper_response = raw_invhelper_response.json()
             sticker_lst = [["0", "0"], ["0", "0"], ["0", "0"], ["0", "0"], ["0", "0"]]
@@ -122,7 +122,7 @@ class get_information:
 
             stickers = " ".join([sticker_lst[0][0], sticker_lst[0][1], sticker_lst[1][0], sticker_lst[1][1], sticker_lst[2][0], sticker_lst[2][1], sticker_lst[3][0], sticker_lst[3][1], sticker_lst[4][0], sticker_lst[4][1]])
             gencode = " ".join(["!gen", all_weaponids[weapon], all_skinids[skin], str(invhelper_response["iteminfo"]["paintseed"]), str(invhelper_response["iteminfo"]["floatvalue"]), stickers])
-            gencodes.append(gencode)
+            gencodes.append(gencode.rstrip("0 "))
         return gencodes
     
     #takes a steamid and returns the inspect links for all Weaponskins
@@ -145,8 +145,8 @@ class generate:
         pass
     #takes a weapon name, skin name, patternseed, floatvalue, and up to 5 stickers with this syntax [stickerid, slot, scrape] and returns a gen code
     def gen(self, weapon: str, skin: str, pattern: str, floatvalue: str, sticker_lst1=["0","1","0"], sticker_lst2=["0","2","0"], sticker_lst3=["0","3","0"], sticker_lst4=["0","4","0"], sticker_lst5=["0","4","0"]):
-        weaponid = json.load(open("resources/weaponids.json"))[weapon]
-        skinid = json.load(open("resources/skinids.json", "r", encoding="utf-8"))[" ".join([weapon, skin])]
+        weaponid = json.load(open("T:\\Development\\Python\\float_avg\\resources\\weaponids.json"))[weapon]
+        skinid = json.load(open("T:\\Development\\Python\\float_avg\\resources\\skinids.json", "r", encoding="utf-8"))[" ".join([weapon, skin])]
         
         all_stickers = sorted([sticker_lst1, sticker_lst2, sticker_lst3, sticker_lst4, sticker_lst5], key=operator.itemgetter(1))
         for i in range(len(all_stickers)):
