@@ -121,8 +121,9 @@ class get_information:
                     counter+=1
 
             stickers = " ".join([sticker_lst[0][0], sticker_lst[0][1], sticker_lst[1][0], sticker_lst[1][1], sticker_lst[2][0], sticker_lst[2][1], sticker_lst[3][0], sticker_lst[3][1], sticker_lst[4][0], sticker_lst[4][1]])
+            stickers = stickers.rstrip("0 ")
             gencode = " ".join(["!gen", all_weaponids[weapon], all_skinids[skin], str(invhelper_response["iteminfo"]["paintseed"]), str(invhelper_response["iteminfo"]["floatvalue"]), stickers])
-            gencodes.append(gencode.rstrip("0 "))
+            gencodes.append(gencode)
         return gencodes
     
     #takes a steamid and returns the inspect links for all Weaponskins
