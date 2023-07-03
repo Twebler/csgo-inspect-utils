@@ -15,8 +15,14 @@ class get_information:
 
     #takes a steamid and returns all the information about the weaponskins in the given inventory that i think is relevant
     def information(self, steam_id: str, output_file=True, output_file_indent=3):
-        #inv_response = requests.get(f"https://steamcommunity.com/inventory/{steamid}/730/2")
-        inv_response = json.load(open("inventory.json", encoding="utf-8"))
+        raw_inv_response = requests.get(f"https://steamcommunity.com/inventory/{steam_id}/730/2")
+        inv_response = raw_inv_response.json()
+
+        #this line is used for prototyping so i dont have to request the api everytime i do a test
+            #inv_response = json.load(open("inventory.json", encoding="utf-8"))
+
+        if inv_response == None:
+            exit("Steam API didnt respond try again later")
         information_list = []
         description_indices, asset_indices = non_callable_funcs.relevant_indices(inv_response)
         for index in range(len(description_indices)):
@@ -77,10 +83,14 @@ class get_information:
         for n in range(len(inspect_links)):
             steamid = inspect_links[n].split("S")[1].split("A")[0]
             assetid = inspect_links[n].split("S")[1].split("A")[1].split("D")[0]
-            #inv_response = requests.get(f"https://steamcommunity.com/inventory/{steamid}/730/2")
-            inv_response = json.load(open("inventory.json", encoding="utf-8"))
-            #if inv_response == None:
-                #return "Steam api didnt reply. Maybe to many request too fast, try again later"
+            raw_inv_response = requests.get(f"https://steamcommunity.com/inventory/{steamid}/730/2")
+            inv_response = raw_inv_response.json()
+
+            #this line is used for prototyping so i dont have to request the api everytime i do a test
+            #inv_response = json.load(open("inventory.json", encoding="utf-8"))
+            
+            if inv_response == None:
+                exit("Steam API didnt respond try again later")
             for asset in range(len(inv_response["assets"])):
                 if assetid == inv_response["assets"][asset]["assetid"]:
                     classid = inv_response["assets"][asset]["classid"]
@@ -146,7 +156,12 @@ class generate:
         
         return " ".join(["!gen", weaponid, skinid, pattern, floatvalue, final_stickers])
 
-class buytools:
+class buy:
     def __init__(self) -> None:
         pass
     #https://steamcommunity.com/market/listings/<app_id>/<hashname>#buylisting|<marketlisting_id>|<app_id>|<context_id>|D
+
+
+t = get_information()
+p = t.gens_steamid("76561199118473343")
+print(p)
