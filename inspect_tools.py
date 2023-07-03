@@ -155,13 +155,3 @@ class generate:
         final_stickers = " ".join(all_stickers)
         
         return " ".join(["!gen", weaponid, skinid, pattern, floatvalue, final_stickers])
-
-class buy:
-    def __init__(self) -> None:
-        pass
-    #https://steamcommunity.com/market/listings/<app_id>/<hashname>#buylisting|<marketlisting_id>|<app_id>|<context_id>|D
-
-
-t = get_information()
-p = t.gens_steamid("76561199118473343")
-print(p)
