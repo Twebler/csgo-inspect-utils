@@ -6,7 +6,7 @@
 '''
 import requests
 import json
-import non_callable_funcs
+from resources import non_callable_funcs
 import operator
 
 class get_information:
@@ -22,7 +22,6 @@ class get_information:
         for index in range(len(description_indices)):
             inspect_link = "steam://rungame/730/76561202255233023/+csgo_econ_action_preview "+"S"+steam_id+"A"+inv_response["assets"][asset_indices[index]]["assetid"]+inv_response["descriptions"][description_indices[index]]["actions"][0]["link"].split("%")[-1]
             #INCLUDE PROXIES HERE
-            print("test1")
             raw_invhelper_response = requests.get(f"https://floats.steaminventoryhelper.com/?url={inspect_link}")
             invhelper_response = raw_invhelper_response.json()
             if invhelper_response["success"] == False:
@@ -32,7 +31,6 @@ class get_information:
                         "floatvalue": "api didnt respond"
                     }
                 }
-            print(invhelper_response)
             sticker_lst = []
             for i in range(len(invhelper_response["iteminfo"]["stickers"])):
                 sticker_lst.append(
@@ -67,9 +65,8 @@ class get_information:
                     information_list[index]["rarity"] = inv_response["descriptions"][description_indices[index]]["tags"][tag]["localized_tag_name"]
                 elif inv_response["descriptions"][description_indices[index]]["tags"][tag]["category"] == "Exterior":
                     information_list[index]["condition"] = inv_response["descriptions"][description_indices[index]]["tags"][tag]["localized_tag_name"]
-            print("test2")
         if output_file:
-            with open("response.json", "w", encoding="utf-8") as file:
+            with open("output/response.json", "w", encoding="utf-8") as file:
                 json.dump(information_list, file, indent = output_file_indent, ensure_ascii=False)
         else:
             return information_list
@@ -99,27 +96,22 @@ class get_information:
                         if inv_response["descriptions"][description]["tags"][i]["category"] == "Exterior":
                             exterior_index = i
                     skin = " ".join(raw_skin).replace("StatTrak™ ", "").replace(inv_response["descriptions"][description]["tags"][exterior_index]["localized_tag_name"], "")
-            all_weaponids = json.load(open("weaponids.json"))
-            #all_skinids = json.load(open("skinids.json"))
+            all_weaponids = json.load(open("resources/weaponids.json"))
+            all_skinids = json.load(open("resources/skinids.json", encoding="utf-8"))
             raw_invhelper_response = requests.get(f"https://floats.steaminventoryhelper.com/?url={inspect_links[n]}")
             invhelper_response = raw_invhelper_response.json()
-            sticker_lst = []
-            for i in range(5):
-                try:
-                    if invhelper_response["iteminfo"]["stickers"][i]["slot"] == i:
-                        sticker_lst.append(
-                            [
-                                str(invhelper_response["iteminfo"]["stickers"][i]["stickerId"]),
-                                str(invhelper_response["iteminfo"]["stickers"][i]["wear"])
-                            ]
-                        )
-                    else:
-                        sticker_lst.append(["0", "0"])
-                except:
-                    sticker_lst.append(["0", "0"])
-            
+            sticker_lst = [["0", "0"], ["0", "0"], ["0", "0"], ["0", "0"], ["0", "0"]]
+            counter = 0
+            for i in range(len(sticker_lst)):
+                if counter >= len(invhelper_response["iteminfo"]["stickers"]):
+                    break
+                if i == invhelper_response["iteminfo"]["stickers"][counter]["slot"]:
+                    sticker_lst[i] = [str(invhelper_response["iteminfo"]["stickers"][counter]["stickerId"]),
+                                    str(invhelper_response["iteminfo"]["stickers"][counter]["wear"])]
+                    counter+=1
+
             stickers = " ".join([sticker_lst[0][0], sticker_lst[0][1], sticker_lst[1][0], sticker_lst[1][1], sticker_lst[2][0], sticker_lst[2][1], sticker_lst[3][0], sticker_lst[3][1], sticker_lst[4][0], sticker_lst[4][1]])
-            gencode = " ".join(["!gen", all_weaponids[weapon], "x", str(invhelper_response["iteminfo"]["paintseed"]), str(invhelper_response["iteminfo"]["floatvalue"]), stickers])
+            gencode = " ".join(["!gen", all_weaponids[weapon], all_skinids[skin], str(invhelper_response["iteminfo"]["paintseed"]), str(invhelper_response["iteminfo"]["floatvalue"]), stickers])
             gencodes.append(gencode)
         return gencodes
     
@@ -134,12 +126,8 @@ class get_information:
     #takes a steamid and returns the gen codes for all Weaponskins in the given inventory
     def gens_steamid(self, steamid: str):
         gen_code_list = []
-        information_list = self.information(steamid, output_file=False)
-        inspect_link_list = []
-        for i in range(len(information_list)):
-            inspect_link_list.append(information_list[i]["inspectlink"])
-        for i in range(len(inspect_link_list)):
-            gen_code_list.append(self.gens_custom(inspect_link_list[i]))
+        inspect_link_list = self.inspectlinks_steamid(steamid)
+        gen_code_list = self.gens_custom(inspect_link_list)
         return gen_code_list
 
 class generate:
@@ -147,8 +135,8 @@ class generate:
         pass
     #takes a weapon name, skin name, patternseed, floatvalue, and up to 5 stickers with this syntax [stickerid, slot, scrape] and returns a gen code
     def gen(self, weapon: str, skin: str, pattern: str, floatvalue: str, sticker_lst1=["0","1","0"], sticker_lst2=["0","2","0"], sticker_lst3=["0","3","0"], sticker_lst4=["0","4","0"], sticker_lst5=["0","4","0"]):
-        weaponid = json.load(open("weaponids.json"))[weapon]
-        skinid = json.load(open("skinids.json", "r", encoding="utf-8"))[" ".join([weapon, skin])]
+        weaponid = json.load(open("resources/weaponids.json"))[weapon]
+        skinid = json.load(open("resources/skinids.json", "r", encoding="utf-8"))[" ".join([weapon, skin])]
         
         all_stickers = sorted([sticker_lst1, sticker_lst2, sticker_lst3, sticker_lst4, sticker_lst5], key=operator.itemgetter(1))
         for i in range(len(all_stickers)):
@@ -157,6 +145,8 @@ class generate:
         final_stickers = " ".join(all_stickers)
         
         return " ".join(["!gen", weaponid, skinid, pattern, floatvalue, final_stickers])
-    
-g = generate()
-print(g.gen("Desert Eagle", "Printstream", "1", "0.01"))
+
+class buytools:
+    def __init__(self) -> None:
+        pass
+    #https://steamcommunity.com/market/listings/<app_id>/<hashname>#buylisting|<marketlisting_id>|<app_id>|<context_id>|D

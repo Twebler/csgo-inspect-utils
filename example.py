@@ -4,23 +4,19 @@ import inspect_tools as i
 get_information = i.get_information
 
 
-#writes response into a file with standard indent of 3
+#writes information about weaponskins in a inventory into a output file if given a steamid
 get_information.information("76561199118473343")
 
 
-#writes response into a file with indent of 1
-get_information.information("76561199118473343", output_file_indent=1)
-
-
-#writes only the consumer grade skins into a output json file with indent of 3
+#writes information about only Consumer Grade weaponskins in a inventory into a output file if given a steamid
 import json
-full_inventory = get_information.information("76561199118473343", output_file=False)
+inventory = get_information.information("76561199118473343", output_file=False)
 consumer_grade_lst = []
-for n in range(len(full_inventory)):
-    if full_inventory[n]["rarity"] == "Consumer Grade":
-        consumer_grade_lst.append(full_inventory[n])
+for n in range(len(inventory)):
+    if inventory[n]["rarity"] == "Consumer Grade":
+        consumer_grade_lst.append(inventory[n])
 with open("response.json", "w", encoding="utf-8") as json_file:
-    json.dump(consumer_grade_lst, json_file, indent=3, ensure_ascii=False)
+    json.dump(consumer_grade_lst, json_file, indent=3, ensure_ascii=False) #ensure ascii and utf-8 are important because sometimes there are chinese or japanese characters in the skin names and they cant be encoded without this
 
 
 #gets a all inspect links from a given inventory accociated to the given steamid
@@ -32,6 +28,18 @@ get_information.inspectlinks_steamid("76561199118473343")
 #   steam://rungame/730/76561202255233023/+csgo_econ_action_preview S76561199118473343A30653367322D16889851714948743458, 
 #   steam://rungame/730/76561202255233023/+csgo_econ_action_preview S76561199118473343A30652669466D16900543212568003837, 
 #   steam://rungame/730/76561202255233023/+csgo_econ_action_preview S76561199118473343A30442114345D12297088180031719184
+#]
+
+
+#gets a all gen codes from a given inventory accociated to the given steamid
+get_information.gens_steamid("76561199118473343")
+#Output:
+#[
+#    "!gen 27 1245 216 0.2328414022922516 5918 0.7280449271202087 5918 0.7072139978408813 5918 0.7743327617645264 5918 0.7776358127593994 0 0", 
+#    "!gen 9 838 884 0.4426316022872925 7045 0 7045 0 7045 0 7045 0 0 0", 
+#    "!gen 4 799 852 0.03141592815518379 7169 0 7169 0 7169 0 0 0 0 0", 
+#    "!gen 19 593 950 0.13865140080451965 179 0 0 0 7169 0 4982 0 0 0", 
+#    "!gen 38 46 14 0.36654868721961975 0 0 0 0 0 0 0 0 0 0"
 #]
 
 
@@ -47,19 +55,11 @@ get_information.gens_custom(["steam://rungame/730/76561202255233023/+csgo_econ_a
 #]
 
 
-#gets a all gen codes from a given inventory accociated to the given steamid
-get_information.gens_steamid("76561199118473343")
-
 
 #==============================================================
 
 
 generate = i.generate()
-
-#generates a gen code based of given info
-#sntax:                 .gen(weapon, skin, patternseed, floatvalue, sticker, sticker, sticker, sticker, sticker)
-#syntax for sticker:    [sticekrid, slot, scrape]
-#stickers have a standard value of 0 so its not required to provide any so .gen(weapon, skin, patternseed, floatvalue) is also valid
 
 #3x 9ine holo Paris 2023
 generate.gen("Desert Eagle", "Printstream", "387", "0.05347336083651", ["6638", "1", "0"], ["6638", "2", "0"], ["6638", "3", "0"])
